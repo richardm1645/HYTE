@@ -12,16 +12,34 @@ import "../styles/home.scss"
 export default function Home() {
   return (
     <main className='layout'>
-      <div>
-        
+
+      <div>      
         <div className='button-container'>
           <Button text="REGISTER TODAY" />
         </div>
-        <img src={HomeBG} className='bg' alt='HomeBG' />
-        
+        <img src={HomeBG} className='bg' alt='HomeBG' /> 
       </div>
 
-      <img src={AboutBG} className='bg' alt='AboutBG' />
+      <div>
+        <div className='about-container'>
+          <h1 className='about-text'>About Hyte</h1>
+          <p className='about-desc'>HYTE is a tech entrepreneurship
+            program, funded by the BC
+            Scholarship Society, where
+            students will learn the pillars of
+            initiating their own start-up, and
+            compete for a $1000 scholarship.
+          </p>
+          <div className='button-container-left'>
+            <Button text="LEARN MORE" />
+          </div>
+          
+        </div>
+        
+        <img src={AboutBG} className='bg' alt='AboutBG' />
+      </div>
+
+      
       <img src={PhasesBG} className='bg' alt='PhaseBG' />
       <img src={RegistrationBG} className='bg' alt='RegistrationBG' />
     </main>
