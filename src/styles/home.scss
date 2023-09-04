@@ -107,3 +107,50 @@
     margin-top: 40%;
   }
 }
+
+.phase-container {
+  position: absolute;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+
+}
+
+.phase-text {
+  font-family: "Bebas";
+  color: #6F6CE2;
+  font-size: 400%;
+
+  @media (max-width: 768px) {
+    font-size: 20px; // Adjust font size for smaller screens
+  }
+}
+
+.phase-desc {
+  font-family: "Roboto";
+  font-size: large;
+  margin-top: -2ch;
+  padding-bottom: 2em;
+
+  @media (max-width: 768px) {
+    font-size: 8px;
+  }
+}
+
+.panel-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+
+
+
+
+
+

@@ -6,6 +6,7 @@ import PhasesBG from "../backgrounds/Program Phases.png"
 import RegistrationBG from "../backgrounds/Registration.png"
 
 import Button from './Button';
+import Panel from './Panel';
 
 import "../styles/home.scss"
 
@@ -32,15 +33,40 @@ export default function Home() {
           </p>
           <div className='button-container-left'>
             <Button text="LEARN MORE" />
-          </div>
-          
+          </div>         
         </div>
-        
         <img src={AboutBG} className='bg' alt='AboutBG' />
       </div>
 
+      <div>
+        <div className='phase-container'>
+          <h1 className='phase-text'>Program Phases</h1>
+          <p className='phase-desc'>
+            Saturdays | 10-11:30am | Lions Gate Community Centre
+          </p>
+          
+          <div className='panel-container'>
+            <Panel
+              title="Phase 1"
+              description="Technology"
+              link="#" // Replace with the actual link to the panel page
+            />
+            <Panel
+              title="Phase 2"
+              description="Entrepreneurship"
+              link="#" // Replace with the actual link to the panel page
+            />
+            <Panel
+              title="Phase 3"
+              description="Competition"
+              link="#" // Replace with the actual link to the panel page
+            />
+          </div>
+
+        </div>
+        <img src={PhasesBG} className='bg' alt='PhaseBG' />
+      </div>
       
-      <img src={PhasesBG} className='bg' alt='PhaseBG' />
       <img src={RegistrationBG} className='bg' alt='RegistrationBG' />
     </main>
   )
