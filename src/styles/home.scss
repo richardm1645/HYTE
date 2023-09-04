@@ -62,7 +62,7 @@
 
 .about-container {
   position: absolute;
-  width: 100%;
+  width: 90%;
   font-size: 2em;
   color: white;
   display: flex;
@@ -148,7 +148,21 @@
 }
 
 
+.register-text-container {
+  display: flex;
+  flex-direction: row;
+}
 
+.register-text {
+  font-family: "Bebas";
+  color: white;
+  font-size: 200%;
+  margin-right: 0.2em;
+
+  @media (max-width: 768px) {
+    font-size: 20px; // Adjust font size for smaller screens
+  }
+}
 
 
 

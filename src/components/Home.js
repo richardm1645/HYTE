@@ -3,10 +3,11 @@ import React from 'react';
 import HomeBG from "../backgrounds/Home.png"
 import AboutBG from "../backgrounds/About.png"
 import PhasesBG from "../backgrounds/Program Phases.png"
-import RegistrationBG from "../backgrounds/Registration.png"
+import ContactBG from "../backgrounds/Contact.png"
 
 import Button from './Button';
 import Panel from './Panel';
+import Footer from './Footer';
 
 import "../styles/home.scss"
 
@@ -62,12 +63,26 @@ export default function Home() {
               link="#" // Replace with the actual link to the panel page
             />
           </div>
-
         </div>
         <img src={PhasesBG} className='bg' alt='PhaseBG' />
       </div>
       
-      <img src={RegistrationBG} className='bg' alt='RegistrationBG' />
+      <div>
+        <div className='about-container'>
+          <div className='register-text-container'>             
+            <h1 className='register-text'>Reach for new </h1>
+            <h1 className='about-text'>hyte</h1>
+            <h1 className='register-text'>s</h1>
+          </div>
+          <p className='about-desc'>
+            Last Day to Register: October 5th, 2023
+          </p>
+          <Footer />
+        </div>
+        
+        <img src={ContactBG} className='bg' alt='RegistrationBG' />
+      </div>
+      
     </main>
   )
 }
