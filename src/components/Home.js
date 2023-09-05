@@ -1,21 +1,24 @@
 import React from 'react';
 
-import HomeBG from "../backgrounds/Home.png"
-import AboutBG from "../backgrounds/About.png"
-import PhasesBG from "../backgrounds/Program Phases.png"
-import RegistrationBG from "../backgrounds/Registration.png"
-import ContactBG from "../backgrounds/Contact.png"
 
+import HomeBG from "../backgrounds/Home.png";
+import AboutBG from "../backgrounds/About.png";
+import PhasesBG from "../backgrounds/Program Phases.png";
+import RegistrationBG from "../backgrounds/Registration.png";
+import ContactBG from "../backgrounds/Contact.png";
+
+import Navbar from './Navbar';
 import Button from './Button';
 import Panel from './Panel';
 import Footer from './Footer';
 
-import "../styles/home.scss"
+import "../styles/home.scss";
 
 export default function Home() {
+  
   return (
     <main className='layout'>
-
+      <Navbar />
       <div>      
         <div className='button-container'>
           <Button text="REGISTER TODAY" />
@@ -68,7 +71,7 @@ export default function Home() {
         <img src={PhasesBG} className='bg' alt='PhaseBG' />
       </div>
 
-      <div>
+      <div id="registration-section">
         <div className='registration-container'>
           <h1 className='about-text'>About Hyte</h1>
           <p className='about-desc'><b>Who can register?</b></p>
@@ -83,7 +86,7 @@ export default function Home() {
         <img src={RegistrationBG} className='bg' alt='RegistrationBG' />
       </div>
       
-      <div>
+      <div id='contact'>
         <div className='about-container'>
           <div className='register-text-container'>             
             <h1 className='register-text'>Reach for new </h1>
@@ -99,5 +102,5 @@ export default function Home() {
       </div>
       
     </main>
-  )
-}
+  );
+};
