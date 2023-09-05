@@ -1,5 +1,204 @@
+@font-face {
+  font-family: 'Bebas';
+  src: url('../fonts/BebasNeue-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.layout {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  .app-container {
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.button-container {
+  position: absolute;
+  width: 100%;
+
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40%;
+
+  @media (max-width: 768px) {
+    font-size: 10px; // Adjust font size for smaller screens
+  }
+}
+
 .bg {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+
+.about-page {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Optional: If you want the background to be fixed while scrolling */
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-container {
+  position: absolute;
+  width: 90%;
+  font-size: 2em;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.about-text {
+  font-family: "Bebas";
+  color: #6F6CE2;
+
+  @media (max-width: 768px) {
+    font-size: 20px; // Adjust font size for smaller screens
+  }
+}
+
+.about-desc {
+  font-family: "Roboto";
+  font-size: large;
+  max-width: 30%;
+  margin-top: -2ch;
+
+  a {
+    color: rgb(98, 171, 244);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  @media (max-width: 768px) {
+    font-size: 8px;
+  }
+}
+
+
+.button-container-left {
+  position: absolute;
+  width: 100%;
+  font-size: large;
+  display: flex;
+
+  align-items: center;
+  margin-top: 30%;
+
+  @media (max-width: 768px) {
+    font-size: 10px; // Adjust font size for smaller screens
+    margin-top: 40%;
+  }
+}
+
+.phase-container {
+  position: absolute;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+
+}
+
+.phase-text {
+  font-family: "Bebas";
+  color: #6F6CE2;
+  font-size: 400%;
+
+  @media (max-width: 768px) {
+    font-size: 20px; // Adjust font size for smaller screens
+  }
+}
+
+.phase-desc {
+  font-family: "Roboto";
+  font-size: large;
+  margin-top: -2ch;
+  padding-bottom: 2em;
+
+  @media (max-width: 768px) {
+    font-size: 8px;
+  }
+}
+
+.panel-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.registration-container {
+  position: absolute;
+  width: 90%;
+  font-size: 2em;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.register-text-container {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+}
+
+.registration-desc {
+  font-family: "Roboto";
+  font-size: large;
+  max-width: 30%;
+  margin-top: 2ch;
+  padding-bottom: 1ch;
+  text-decoration: none;
+
+  @media (max-width: 768px) {
+    font-size: 8px;
+  }
+}
+
+.register-text {
+  font-family: "Bebas";
+  color: white;
+  font-size: 200%;
+  margin-right: 0.2em;
+
+  @media (max-width: 768px) {
+    font-size: 20px; // Adjust font size for smaller screens
+  }
+}
+
+
+
+
+

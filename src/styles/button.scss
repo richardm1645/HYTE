@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.button {
+  display: flex;
+  background-color: #6F6CE2;
+  color: white;
+  border: none;
+  padding: 1.5% 3%;
+  font-family: "Poppins", sans-serif;
+  font-size: 100%;
+  text-decoration: none;
+
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+
+  &:hover {
+    background-color: #48468e;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 5px; // Adjust font size for smaller screens
+  }
+}

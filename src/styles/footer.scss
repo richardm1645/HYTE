@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'Bebas';
+  src: url('../fonts/BebasNeue-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.footer {
+  background-color: #8f49ff; // Mellow blue color
+  width: 115%;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+  margin-left: -15%;
+  margin-top: 25%;
+
+  @media (max-width: 768px) {
+    padding: 10px 0; // Adjust font size for smaller screens
+  }
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+
+.footer-item {
+  margin: 10px;
+  font-size: xx-large;
+  font-family: "Bebas";
+
+  a {
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  @media (max-width: 768px) {
+    font-size: 10px; // Adjust font size for smaller screens
+  }
+}
+
+.footer-desc {
+  font-family: "Poppins";
+  font-size: large;
+  flex-wrap: wrap;
+  width: 200px;
+
+  @media (max-width: 768px) {
+    font-size: 6px; // Adjust font size for smaller screens
+  }
+}

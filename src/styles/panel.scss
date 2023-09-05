@@ -1,0 +1,53 @@
+.panel {
+  width: calc(33.33% - 20px); // Adjust spacing between panels
+  height: 150px;
+  width: 200px;
+  padding: 30px 70px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 1em;
+  margin-right: 1em;
+  background-color: #2e2c66;
+  transition: transform 0.2s ease;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  @media (max-width: 1280px) {
+    height: 150px;
+    width: 200px;
+    padding: 15px;
+    margin: 2px;
+  }
+
+  @media (max-width: 768px) {
+    height: 50px;
+    width: 75px;
+    padding: 15px;
+    margin: 2px;
+  }
+}
+
+.panel-title {
+  font-family: 'Roboto';
+  font-size: 24px;
+  margin-bottom: 10px;
+
+  @media (max-width: 768px) {
+    font-size: 10px; // Adjust font size for smaller screens
+    margin-bottom: 0;
+  }
+}
+
+.panel-description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-bottom: 20px;
+
+  @media (max-width: 768px) {
+    font-size: 7px; // Adjust font size for smaller screens
+    margin-bottom: 1em;
+  }
+}
