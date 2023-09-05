@@ -87,6 +87,15 @@
   max-width: 30%;
   margin-top: -2ch;
 
+  a {
+    color: rgb(98, 171, 244);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
   @media (max-width: 768px) {
     font-size: 8px;
   }
@@ -147,10 +156,35 @@
   justify-content: space-around;
 }
 
+.registration-container {
+  position: absolute;
+  width: 90%;
+  font-size: 2em;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-top: 5%;
+}
 
 .register-text-container {
   display: flex;
   flex-direction: row;
+  text-decoration: none;
+}
+
+.registration-desc {
+  font-family: "Roboto";
+  font-size: large;
+  max-width: 30%;
+  margin-top: 2ch;
+  padding-bottom: 1ch;
+  text-decoration: none;
+
+  @media (max-width: 768px) {
+    font-size: 8px;
+  }
 }
 
 .register-text {
