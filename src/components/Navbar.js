@@ -15,7 +15,7 @@ export default function Navbar() {
   
   return (
     <nav className="navbar">
-      <a><img src={Logo} className='logo' alt="Logo" /></a>
+      <a href='/'><img src={Logo} className='logo' alt="Logo" /></a>
       <ul className="menu">
         <li>
           <a onClick={toggleAboutDropdown} className="registration">

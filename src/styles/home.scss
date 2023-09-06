@@ -125,14 +125,22 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
-
 }
 
 .phase-text {
   font-family: "Bebas";
   color: #6F6CE2;
   font-size: 400%;
+
+  @media (max-width: 768px) {
+    font-size: 20px; // Adjust font size for smaller screens
+  }
+}
+
+.phases-text2 {
+  font-family: "Bebas";
+  color: #6F6CE2;
+  font-size: 200%;
 
   @media (max-width: 768px) {
     font-size: 20px; // Adjust font size for smaller screens
@@ -199,6 +207,37 @@
 }
 
 
+.phases-text {
+  font-family: "Bebas";
+  color: #6F6CE2;
+
+  @media (max-width: 768px) {
+    margin-top: 2em;
+    font-size: 20px; // Adjust font size for smaller screens
+  }
+}
+
+.phases-desc {
+  font-family: "Roboto";
+  font-size: large;
+  max-width: 30%;
+  margin-top: -2ch;
+  padding-bottom: 1em;
+
+  a {
+    color: rgb(98, 171, 244);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  @media (max-width: 768px) {
+    max-width: 60%;
+    font-size: 8px;
+  }
+}
 
 
 

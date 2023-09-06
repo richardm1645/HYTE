@@ -54,17 +54,17 @@ export default function Home() {
             <Panel
               title="Phase 1"
               description="Technology"
-              link="#" // Replace with the actual link to the panel page
+              link="/about" 
             />
             <Panel
               title="Phase 2"
               description="Entrepreneurship"
-              link="#" // Replace with the actual link to the panel page
+              link="/about" 
             />
             <Panel
               title="Phase 3"
               description="Competition"
-              link="#" // Replace with the actual link to the panel page
+              link="/about" 
             />
           </div>
         </div>
