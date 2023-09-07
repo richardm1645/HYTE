@@ -9,7 +9,7 @@ export default function Button(props) {
       className="button"
     >
       <ScrollLink
-        to="registration-section"
+        to={props.link}
         spy={true}
         smooth={true}
         offset={-70} // Offset from the top (adjust as needed)

@@ -1,6 +1,7 @@
 import React from "react";
 
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 import RegistrationBG from "../backgrounds/Registration.png";
 
@@ -24,6 +25,7 @@ export default function Registration() {
           </div>
           <img src={RegistrationBG} className='bg-mobile' alt='RegistrationBG' />
         </div>
+      <Footer />
     </main>
   )
 }

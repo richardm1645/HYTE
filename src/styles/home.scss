@@ -260,6 +260,17 @@
   }
 }
 
+.founder-container {
+  position: absolute;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3em;
+}
+
 .founder-desc {
   display: flex;
   flex-direction: row;
@@ -344,9 +355,21 @@
   }
 }
 
+.why-container {
+  position: absolute;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 5em;
+}
+
 .why-text {
   font-family: "Bebas";
   color: #6F6CE2;
+  font-size: 400%;
+
   @media (max-width: 768px) {
     margin-top: -0.3em;
     font-size: 20px; // Adjust font size for smaller screens
@@ -357,7 +380,9 @@
   font-family: "Roboto";
   font-size: large;
   max-width: 90%;
+  align-self: flex-start;
   margin-top: -2ch;
+  padding-left: 5%;
   padding-bottom: 1em;
 
   a {

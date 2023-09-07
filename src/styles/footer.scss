@@ -14,12 +14,10 @@
 
 .footer {
   background-color: #8f49ff; // Mellow blue color
-  width: 115%;
+  width: 100%;
   color: white;
-  padding: 100px 0;
+  padding: 0;
   text-align: center;
-  margin-left: -15%;
-  margin-top: 25%;
 
   @media (max-width: 768px) {
     padding: 10px 0; // Adjust font size for smaller screens

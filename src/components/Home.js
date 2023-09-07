@@ -37,7 +37,7 @@ export default function Home() {
             compete for a $1000 scholarship.
           </p>
           <div className='button-container-left'>
-            <Button text="LEARN MORE" />
+            <ButtonNewPage text="LEARN MORE" link="/about" />
           </div>         
         </div>
         <img src={AboutBG} className='bg' alt='AboutBG' />
@@ -80,12 +80,11 @@ export default function Home() {
           </div>
           <p className='about-desc'>
             Last Day to Register: October 5th, 2023
-          </p>
-          <Footer />
+          </p>         
         </div>       
         <img src={ContactBG} className='bg' alt='ContactBG' />
       </div>
-      
+      <Footer />
     </main>
   );
 };
