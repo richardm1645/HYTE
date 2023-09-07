@@ -3,7 +3,7 @@ import '../styles/footer.scss';
 
 export default function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer" id='footer'>
       <div className="footer-content">
         <div className="footer-item">
           <p className="footer-title">Address:</p>
