@@ -4,11 +4,11 @@ import React from 'react';
 import HomeBG from "../backgrounds/Home.png";
 import AboutBG from "../backgrounds/About.png";
 import PhasesBG from "../backgrounds/Program Phases.png";
-import RegistrationBG from "../backgrounds/Registration.png";
 import ContactBG from "../backgrounds/Contact.png";
 
 import Navbar from './Navbar';
 import Button from './Button';
+import ButtonNewPage from './ButtonNewPage';
 import Panel from './Panel';
 import Footer from './Footer';
 
@@ -21,7 +21,7 @@ export default function Home() {
       <Navbar />
       <div>      
         <div className='button-container'>
-          <Button text="REGISTER TODAY" />
+          <ButtonNewPage text="REGISTER TODAY" link="/registration" />
         </div>
         <img src={HomeBG} className='bg' alt='HomeBG' /> 
       </div>
@@ -69,21 +69,6 @@ export default function Home() {
           </div>
         </div>
         <img src={PhasesBG} className='bg' alt='PhaseBG' />
-      </div>
-
-      <div id="registration-section">
-        <div className='registration-container'>
-          <h1 className='about-text'>About Hyte</h1>
-          <p className='about-desc'><b>Who can register?</b></p>
-          <p className='about-desc'>Students in grades 9-12</p>
-          <br />
-          <p className='registration-desc'><b>Registration Steps:</b></p>
-          <p className='about-desc'>1. Fill in the <a href="#">consent form</a> and email it to
-          <a href='mailto:dibai.yasmin@gmail.com'> dibai.yasmin@gmail.com</a></p>
-          <p className='about-desc'>2. E-transfer the course fee to
-          <a href='mailto:yasminocean16@gmail.com'> yasminocean16@gmail.com</a>, listed on the consent form.</p>
-        </div>
-        <img src={RegistrationBG} className='bg' alt='RegistrationBG' />
       </div>
       
       <div id='contact'>

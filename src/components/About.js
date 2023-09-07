@@ -3,6 +3,8 @@ import React from "react";
 import PhasesBG from "../backgrounds/Tech Detail Page.png"
 import FounderBG from "../backgrounds/The Founder.png"
 import FounderProf from "../images/Founder-placeholder.png"
+import WhyBG from "../backgrounds/Why HYTE.png"
+import MentorsBG from "../backgrounds/HYTE Mentors.png"
 
 import Navbar from "./Navbar";
 
@@ -104,9 +106,78 @@ export default function About() {
               encouraging them to pursue a career in tech.
             </p>
           </div>
-
         </div>
         <img src={FounderBG} className='bg' alt='FounderBG' />
+      </div>
+
+      <div>
+        <div className="about-container">
+          <h1 className='why-text'>WHY HYTE?</h1>
+          <p className="why-desc">
+            In this program, you will learn about the basics of technology, entrepreneurship and how to combine the
+            two. Students will learn the pillars of initiating their own start-up, from industry professionals who are
+            leading the industry today, and then compete for a $1000 scholarship with their team. Students will
+            participate in workshops, seminars, interactive activities, group work, the option to build a prototype and
+            more. You will also be working with university professors and industry professionals throughout his
+            project, which is an opportunity that not many high school students get.
+          </p>
+          <p className="why-desc">
+            Since the pandemic, students' personal portfolios struggle to stand out to admissions, as they have
+            become repetitive and do not stand out anymore. Through HYTE, students are demonstrating leadership,
+            initiative, the starting and completing of a technical project, as well as the chance to win a scholarship or
+            other awards for our exceptional students. These are all characteristics that university's look for when
+            assessing personal portfolios and this will help your application stand out.
+          </p>
+          <p className="why-desc">
+            In all, this program will allow you to experience the inside scoop of the tech industry and
+            business/entrepreneurship, before graduating high school.
+          </p>
+        </div>
+        <img src={WhyBG} className='bg' alt='WhyBG' /> 
+      </div>
+
+      <div>
+        <div className='phase-container'>
+          <h1 className='phase-text'>MEET OUR HYTE MENTORS</h1>
+            <div className="mentors-desc">
+              <div className="mentor-profile">
+                <img className="mentor-pic" src={FounderProf}></img>
+                <div className="mentor-desc-center">
+                  <p className="mentor-profile-desc"><b>Professor Kate Dilworth</b></p>
+                  <p className="mentors-profile-desc-para">
+                    BSN R.N. MBA, ICD.D, Associate Professor
+                    of Practice, Director of Health Programs,
+                    SFU Beedie School of Business.
+                  </p>
+                </div>
+              </div>
+                     
+              <div className="mentor-profile">
+                <img className="mentor-pic" src={FounderProf}></img>
+                <div className="mentor-desc-center">
+                  <p className="mentor-profile-desc"><b>Owen McBride</b></p>
+                  <p className="mentors-profile-desc-para">
+                    Founder of Private Coaching Co.
+                  </p>
+                </div>
+              </div>
+
+              <div className="mentor-profile">
+                <img className="mentor-pic" src={FounderProf}></img>
+                <div className="mentor-desc-center">
+                  <p className="mentor-profile-desc"><b>Mehrsa Raeiszadeh</b></p>
+                  <p className="mentors-profile-desc-para">
+                  Co-founder & COO of Mintlist, PhD in
+                  Process Engineering
+                  </p>
+                </div>
+              </div>
+            </div>
+
+              
+
+        </div>
+        <img src={MentorsBG} className='bg' alt='MentorsBG' />
       </div>
     </main>
   )

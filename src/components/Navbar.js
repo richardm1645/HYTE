@@ -42,16 +42,7 @@ export default function Navbar() {
           )}
         </li>
         <li>
-          <ScrollLink
-            to="registration-section"
-            spy={true}
-            smooth={true}
-            offset={-70} // Offset from the top (adjust as needed)
-            duration={800} // Animation duration in milliseconds
-            className="registration"
-          >
-            Registration
-          </ScrollLink>
+          <a href="/registration" className='registration'>Registration</a>
         </li>
       </ul>
     </nav>
