@@ -1,7 +1,7 @@
 import React from "react";
 
 import FounderBG from "../backgrounds/The Founder.png"
-import FounderProf from "../images/Founder-placeholder.png"
+import FounderProf from "../images/yasmin.jpg"
 import Footer from "./Footer";
 
 import Navbar from "./Navbar";
@@ -17,7 +17,7 @@ export default function Founder() {
           <h1 className='phase-text'>the founder</h1>
           <div className="founder-desc">
             <div className="founder-profile">
-              <img className="founder-pic" src={FounderProf}></img>
+              <img className="founder-pic" style={{width: '200px', height:'auto'}} src={FounderProf}></img>
               <p className="founder-profile-desc"><b>Yasmin Ocean Dibai</b></p>
               <p className="founder-profile-desc-para">
                 Private Math & Physics Tutor, Sustainable Energy
