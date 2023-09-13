@@ -37,7 +37,7 @@ export default function Home() {
             compete for a $1000 scholarship.
           </p>
           <div className='button-container-left'>
-            <ButtonNewPage text="LEARN MORE" link="/about" />
+            <ButtonNewPage text="LEARN MORE" link="/whyhyte" />
           </div>         
         </div>
         <img src={AboutBG} className='bg' alt='AboutBG' />
