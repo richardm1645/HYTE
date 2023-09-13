@@ -5,7 +5,7 @@ import FounderProf from "../images/Founder-placeholder.png"
 
 import Alex from "../images/alex.jpg"
 import Kate from "../images/kate.png"
-import Callum from "../images/callum.jpeg"
+import Callum from "../images/callum.jpg"
 import Liam from "../images/liam.jpg"
 import Owen from "../images/owen.jpg"
 import Rachel from "../images/rachel.jpg"
