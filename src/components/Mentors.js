@@ -55,7 +55,38 @@ export default function Mentors() {
 
             </div>
 
+            <div className="mentors-desc">
+              <div className="mentor-profile">
+                <img className="mentor-pic" src={Alex}></img>
+                <div className="mentor-desc-center">
+                  <p className="mentor-profile-desc"><b>Alex McGovern</b></p>
+                  <p className="mentors-profile-desc-para">
+                  CDL Vancouver, Venture Analyst - Minerals Stream Lead
+                  </p>
+                </div>
+              </div>
+                     
+              <div className="mentor-profile">
+                <img className="mentor-pic" src={Callum}></img>
+                <div className="mentor-desc-center">
+                  <p className="mentor-profile-desc"><b>Callum Woznow</b></p>
+                  <p className="mentors-profile-desc-para">
+                  Private Coaching Co, President & Founder
+                  </p>
+                </div>
+              </div>
 
+              <div className="mentor-profile">
+                <img className="mentor-pic" src={Kate}></img>
+                <div className="mentor-desc-center">
+                  <p className="mentor-profile-desc"><b>Kate Dilworth</b></p>
+                  <p className="mentors-profile-desc-para">
+                  Tesla, Vehicle Software Technical Program Manager
+                  </p>
+                </div>
+              </div>
+
+            </div>
 
 
             <div className="mentors-desc">
@@ -69,15 +100,6 @@ export default function Mentors() {
                 </div>
               </div>
                      
-              <div className="mentor-profile">
-                <img className="mentor-pic" src={Owen}></img>
-                <div className="mentor-desc-center">
-                  <p className="mentor-profile-desc"><b>Owen McBride</b></p>
-                  <p className="mentors-profile-desc-para">
-                  Private Coaching Co, President & Founder
-                  </p>
-                </div>
-              </div>
 
               <div className="mentor-profile">
                 <img className="mentor-pic" src={Rachel}></img>
